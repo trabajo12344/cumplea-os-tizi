@@ -1,0 +1,49 @@
+ body {
+      margin: 0;
+      padding: 0;
+      background-image: url('../imagenes/fondo-chayanne.png');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 130vh;
+      flex-direction: column;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    min-height: 130vh; 
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-size: contain; 
+    background-position: center center;
+    background-color:palevioletred; 
+}
+
+
+
+    #pastel {
+      width: 300px;
+      display: none;
+      align-self: center;
+    }
+
+    #link-carta {
+      display: none;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color:aquamarine;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: fuchsia;
+    }
+    #iniciar{
+        padding: 12px 24px; 
+        font-size: 16px; 
+        border-radius: 10px; 
+        background-color: fuchsia; 
+        color: white; 
+        border: none; 
+        cursor: pointer;
+
+
+    }
